@@ -1663,7 +1663,7 @@ color: rgb(13, 191, 135);
         /* 3 circles and 4 squares **/
         .aboutRevenueWithNoInvest.n2.rectangle{
             text-align: center;
-            color: black;
+            color: white;
             background-color: rgba(13, 191, 135, 0.88);
         display: block;
         width: 350px;
