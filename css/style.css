@@ -1,0 +1,2025 @@
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(32, 30, 41);**/
+        background-color: white;
+        color: black;
+    /*color: white;**/
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+}
+
+.liNav{
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+	width: 11px;
+	height: 11px;
+}
+
+
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	display: none;
+}
+
+::-webkit-scrollbar-track-piece  {
+	background-color: #3b3b3b;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #666;
+	border-radius: 6px;
+}
+
+/* NORMAL**/
+
+.yagorTokenomics{
+    background-image: url("../img/yagorTokenomicsSection.png");
+    background-position: center;
+    background-size: 73%;
+    background-repeat: no-repeat;
+    height: 866px;
+}
+
+
+ /* header **/
+
+ header{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 155px;
+    padding-right: 155px;
+}    
+
+.header1{
+    transition: all 0.2s;
+}
+
+.header1:hover{
+    transform: scale(1.04);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.liNav{
+display: inline;
+padding-left: 12px;
+padding-right: 12px;
+font-size: 21px;
+transition: all 0.3s;
+padding-bottom: 5px;
+}
+
+.liNav.w300{
+font-weight: 300;
+}
+
+.attsomSiteTitle{
+    font-size: 23px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.liNav:hover{
+    cursor: pointer;
+    color: rgb(2, 71, 49);
+    border-bottom: 1px solid rgb(4, 80, 56);
+    transition: all .5s;
+}
+
+.attsomSiteTitleImgFront{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+/* main - first page **/
+
+.firstPage{
+margin-left: auto;
+margin-right: auto;
+
+width: 1080px;
+padding-top: 130px;
+
+}
+
+.attsom.format.green{
+display: inline;
+font-size: 55px;
+color: rgb(29, 191, 115);
+font-family: Arial, 'Ubuntu', sans-serif;
+
+line-height: 1; 
+font-weight: 600;
+}
+
+.communityText{
+display: inline;
+font-size: 52px;
+}
+
+.communityText.below{
+padding-top: 25px;
+font-size: 26px;
+}
+
+.buyAttsom{
+font-size: 26px;
+font-family: 'Ubuntu';
+font-weight: 600;
+
+margin-top: 40px;
+
+padding-top: 15px;
+padding-bottom: 15px;
+
+background-color: rgb(52, 53, 58);
+color: rgb(182, 182, 184);
+border: solid 2px  rgb(52, 53, 58);
+border-radius: 5px;
+
+padding-left: 20px;
+padding-right: 20px;
+
+transition: all 0.4s;
+}
+
+.attsomSiteTitleIMG{
+    width: 50px;
+}
+
+.buyAttsom:hover{
+transition: all 0.2s;
+/*background-color: rgba(52, 53, 58, 0.5);*/
+border: 2px solid rgb(13, 191, 115);
+color: rgb(230, 230, 230);
+}
+
+.socNet{
+padding: 0;
+}
+
+.socialNetworks{
+margin-top: 325px;
+margin-bottom: 200px;
+margin-left: -15px;
+}
+
+.socNetLi{
+list-style: none;
+display: inline;
+padding: 0px 15px 0px 15px;
+}
+
+.socNetLi.followUs{
+font-size: 26px;
+font-weight: 600;
+}
+
+.twitter{
+max-width: 45px;
+transition: all 0.2s;
+}
+
+.twitter:hover{
+transform: scale(1.17);
+transition: all 0.2s;
+} 
+
+.twitter.blackHover:hover{
+    transform: scale(1.17);
+    transition: all 0.080s;
+    content: url("../img/iconsGreen/twitterGreen.png");
+} 
+
+.telegram{
+max-width: 39.7px;
+transition: all 0.2s;
+}
+
+.telegram:hover{
+transform: scale(1.17);
+transition: all 0.2s;
+}
+
+.telegram.blackHover:hover{
+    transform: scale(1.17);
+    transition: all 0.080s;
+    content: url("../img/iconsGreen/telegramGreen.png");
+}
+
+.reddit{
+max-width: 47px;
+transition: all 0.2s;
+}
+
+.reddit:hover{
+transform: scale(1.17);
+transition: all 0.2s;
+} 
+
+.reddit.blackHover:hover{
+    transform: scale(1.17);
+    transition: all 0.080s;
+    content: url("../img/iconsGreen/redditGreen.png");
+}
+
+.discord{
+max-width: 50px;
+transition: all 0.2s;
+}
+
+
+.discord:hover{
+transform: scale(1.17);
+transition: all 0.2s;
+} 
+
+.discord.blackHover:hover{
+    transform: scale(1.14);
+    transition: all 0.080s;
+    content: url("../img/iconsGreen/discordGreen.png");
+}
+
+.link{
+cursor: pointer;
+}
+
+/* About ATTSOM **/
+
+section.aboutAttsom{
+margin-bottom: 380px;
+}
+
+.aboutAttsom.name, .aboutAttsom.h1{
+text-align: center;
+}
+
+.aboutAttsom.h1{
+font-size: 52px;
+margin-bottom: 105px;
+    color:rgb(13, 191, 135)
+}
+
+.aboutAttsom.col.n0{
+display: flex;
+justify-content: space-between;
+
+--paddingLR: 225px;
+--paddingTriangleLR: 55px;
+}
+
+.aboutAttsom.col.n1, .aboutAttsom.col.n3{
+width: 1110px;
+padding-top: 7px;
+}
+
+.aboutAttsom.col.n1{
+padding-left: var(--paddingLR);
+}
+
+.aboutAttsom.col.n2{
+text-align: center;
+width: 920px;
+}
+
+.aboutAttsom.col.n3{
+padding-right: var(--paddingLR);
+}
+
+@keyframes aboutAttsomImgN1Animation{
+    from {
+        transform: rotateZ(0deg);
+        
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        
+    }
+}
+
+.aboutAttsom.img.n1{
+    /*animation-name: aboutAttsomImgN1Animation;
+    animation-play-state: initial; /* ON OU OFF**/
+    /*animation-duration: 4s; /* TEMPO PARA COMPLETAR **/
+    /*animation-iteration-count: infinite; /* REPETIÇÃO **/
+    /*animation-delay: 0.2s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    /*animation-timing-function: linear; /* SEM EASY-IN-OUT**/
+
+
+
+    width: 200px;
+    margin-top: 20px;
+
+}
+.aboutAttsom.img.n2{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+padding-left: var(--paddingTriangleLR);
+padding-right: var(--paddingTriangleLR);
+
+width: 370px;
+margin-top: -34px;
+}
+.aboutAttsom.img.n3{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+padding-left: var(--paddingTriangleLR);
+padding-right: var(--paddingTriangleLR);
+width: 540px;
+}
+
+.aboutAttsom.secureProj{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+
+padding-top: 75px;
+width: 120px;
+font-size: 20px;
+
+text-align: left;
+padding-left: 35px;
+}
+
+.aboutAttsom.text.n1, .aboutAttsom.text.n2{
+text-align: right;
+}
+
+.aboutAttsom.text.n3, .aboutAttsom.text.n4, .aboutAttsom.text.n41{
+text-align: left;
+}
+
+h3.aboutAttsom.text.n1, h3.aboutAttsom.text.n2, h3.aboutAttsom.text.n3, h3.aboutAttsom.text.n4{
+font-size: 24px        
+}
+
+.aboutAttsom.text.under{
+--paddingTextUnderLR: 50px;
+font-size: 22px;
+font-weight: 300;
+}
+
+.aboutAttsom.text.under.n1, .aboutAttsom.text.under.n2{     
+padding-left: var(--paddingTextUnderLR);  
+margin: 0;
+}
+
+.aboutAttsom.text.under.n3, .aboutAttsom.text.under.n4{
+padding-right: var(--paddingTextUnderLR);
+}
+
+.aboutAttsom.subCol.n1{        
+padding-right: 85px;
+}
+
+.aboutAttsom.subCol.n2{        
+padding-top: 55px;
+}
+
+.aboutAttsom.subCol.n3{        
+padding-left: 85px;
+}
+
+.aboutAttsom.subCol.n4{        
+padding-left: 15px;
+padding-right: 0px;
+}
+
+/* aboutRevenue **/
+
+section.aboutRevenue1mi{
+margin-top: 400px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 270px;
+}
+article.aboutRevenue1mi{
+width: 520px;
+--paddingAboutRevenue1miLR: 340px;
+}
+
+.aboutRevenue1mi.side.n1{
+padding-left: var(--paddingAboutRevenue1miLR);
+}
+
+.aboutRevenue1mi.side.n2{
+padding-right: var(--paddingAboutRevenue1miLR);
+}
+
+.aboutRevenue1mi.title{
+position: absolute;
+width: 300px;
+text-align: center;
+
+padding-left: 190px;
+padding-top: 106px;
+font-size: 48px;
+}
+
+.aboutRevenue1mi.circle.n1, .aboutRevenue1mi.circle.n2{
+position: absolute;    
+
+width: 620px;
+margin-top: -25px;
+}
+
+
+@keyframes aboutRevenue1miCircle{
+    from {
+        transform: rotateZ(0deg);
+        
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        
+    }
+}
+
+.aboutRevenue1mi.circle.n1{
+
+    animation-name: aboutRevenue1miCircle;
+    animation-play-state: initial; /* ON OU OFF**/
+    animation-duration: 6s; /* TEMPO PARA COMPLETAR **/
+    animation-iteration-count: infinite; /* REPETIÇÃO **/
+    animation-delay: 0.2s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    animation-timing-function: ease-in-out; /* SEM EASY-IN-OUT**/
+    animation-direction: alternate; /*Primeiro executa e volta**/
+
+
+padding-left: 25px;
+}
+
+.aboutRevenue1mi.circle.n2{
+    animation-name: aboutRevenue1miCircle;
+    animation-play-state: initial; /* ON OU OFF**/
+    animation-duration: 6s; /* TEMPO PARA COMPLETAR **/
+    animation-iteration-count: infinite; /* REPETIÇÃO **/
+    animation-delay: 0.2s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    animation-timing-function: ease-in-out; /* SEM EASY-IN-OUT**/
+    animation-direction: alternate-reverse; /*Primeiro executa e volta**/
+}
+
+.aboutRevenue1mi.side.n2{
+font-size: 22px;
+}
+
+.aboutRevenue1mi.text.n0{
+color: rgb(13, 191, 135);
+font-size: 48px;
+}
+
+/* aboutRevenueWithNoInvest **/
+
+/*div.aboutRevenueWithNoInvest{
+
+}**/
+
+.aboutRevenueWithNoInvest.title{
+color: rgb(13, 191, 135);
+text-align: center;
+font-size: 54px;
+}
+
+.aboutRevenueWithNoInvest.n0{
+display: flex;
+justify-content: space-between;
+--paddingAboutRevenueWithNoInvestLR: 250px;
+padding-left: var(--paddingAboutRevenueWithNoInvestLR);
+padding-right: var(--paddingAboutRevenueWithNoInvestLR);
+}
+
+article.aboutRevenueWithNoInvest.n1, article.aboutRevenueWithNoInvest.n2, article.aboutRevenueWithNoInvest.n3{
+width: 390px;
+}
+
+.aboutRevenueWithNoInvest.subtitle{
+font-size: 26px;
+text-align: center;
+}
+
+.aboutRevenueWithNoInvest.text{
+font-size: 22px;
+font-weight: 300;
+text-align: center;
+}
+
+/* 3 circles and 4 squares **/
+.aboutRevenueWithNoInvest.n2.rectangle{
+/*color: white;
+background-color: rgba(0, 0, 0,0.89);
+display: block;
+width: 480px;
+height: 88px;
+max-height: 240px;
+border-radius: 20px;
+padding: 15px 15px 0px 30px;
+font-weight: 300;
+font-size: 16px;
+margin-bottom: 25px;
+
+margin-left: 330px;*/
+
+            text-align: center;
+            color: black;
+            background-color: rgba(13, 191, 135, 0.88);
+        display: block;
+        width: 350px;
+        height: 88px;
+        max-height: 240px;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 25px;
+        
+        margin-left: 330px;
+}
+
+.aboutRevenueWithNoInvest.n2.rectangle.n11{
+    
+margin-bottom: 35px;
+height: 110px;
+}
+
+.aboutRevenueWithNoInvest.n2.rectangle.n22{
+margin-left: 480px;
+}
+
+.aboutRevenueWithNoInvest.n2.rectangle.n33{
+margin-left: 580px;
+}
+
+.aboutRevenueWithNoInvest.n2.rectangle.n44{
+height: 166px;        
+margin-left: 680px;
+}
+.aboutRevenueWithNoInvest.img{
+
+    animation-name: aboutRevenue1miCircle;
+    animation-play-state: initial; /* ON OU OFF**/
+    animation-duration: 6s; /* TEMPO PARA COMPLETAR **/
+    animation-iteration-count: infinite; /* REPETIÇÃO **/
+    animation-delay: 0.2s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    animation-timing-function: ease-in-out; /* SEM EASY-IN-OUT**/
+    animation-direction: alternate; /*Primeiro executa e volta**/
+
+
+width: 770px;
+position: absolute;
+margin-top: -740px;
+left: -284.5px;
+}    
+
+.aboutRevenueWithNoInvest.img.n2{
+    animation-name: aboutRevenue1miCircle;
+    animation-play-state: initial; /* ON OU OFF**/
+    animation-duration: 6s; /* TEMPO PARA COMPLETAR **/
+    animation-iteration-count: infinite; /* REPETIÇÃO **/
+    animation-delay: 0.5s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    animation-timing-function: ease-in-out; /* SEM EASY-IN-OUT**/
+    animation-direction: alternate-reverse; /*Primeiro executa e volta**/
+
+margin-top: -750px;
+left: -322.5px;
+}
+
+.aboutRevenueWithNoInvest.img.n3{
+    animation-name: aboutRevenue1miCircle;
+    animation-play-state: initial; /* ON OU OFF**/
+    animation-duration: 6s; /* TEMPO PARA COMPLETAR **/
+    animation-iteration-count: infinite; /* REPETIÇÃO **/
+    animation-delay: 1.4s; /* TEMPO QUE DEMORA PRA COMEÇAR **/
+    animation-timing-function: ease-in-out; /* SEM EASY-IN-OUT**/
+    animation-direction: alternate; /*Primeiro executa e volta**/
+
+margin-top: -720px;
+left: -308.5px;
+}
+
+.aboutRevenueWithNoInvest.rectangletext.n1{
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 34px;
+}
+
+.aboutRevenueWithNoInvest.h3text{
+margin-left: 680px;
+padding-right: 650px;
+text-align: left;
+font-size: 22px;
+}
+
+.aboutRevenueWithNoInvest.h3text1{
+    color: rgb(13, 191, 135);
+}
+
+.aboutRevenueWithNoInvest.h3text2, .aboutRevenueWithNoInvest.h3text3, .aboutRevenueWithNoInvest.h3text4{
+font-weight: 400;
+}
+
+/* ROAD MAP **/
+section.roadmap{
+margin-top: 125px;
+}
+
+.roadmap.FirstTitle, .roadmap.FirstSubtitle{
+font-size: 42px;
+text-align: center;
+}
+
+.roadmap.FirstTitle{
+    color: rgb(13, 191, 135);
+}
+
+.roadmap.FirstSubtitle{
+--paddingLRRoadmapSubtitle: 550px;
+padding-left: var(--paddingLRRoadmapSubtitle);
+padding-right: var(--paddingLRRoadmapSubtitle);
+}
+
+.roadmap.b1Main, .roadmap.b2Main, .roadmap.b3Main, .roadmap.b4Main, .roadmap.b5Main, .roadmap.b6Main{
+display: flex;
+justify-content: space-between;
+}
+
+.roadmap.block{
+max-width: 980px;
+}
+.roadmap.block.b1, .roadmap.block.b3, .roadmap.block.b5{
+text-align: right;
+width: 425px;
+margin-left: 25%;
+}
+.roadmap.block.b2, .roadmap.block.b4, .roadmap.block.b6{        
+margin-left: 53%;
+text-align: left;
+padding-right: 350px;
+}
+
+.roadmap.block.b1.title, .roadmap.block.b2.title, .roadmap.block.b3.title, .roadmap.block.b4.title, .roadmap.block.b5.title, .roadmap.block.b6.title{
+padding: unset;
+}
+
+.roadmap.b1.text1, .roadmap.b1.text2, .roadmap.b1.text3, .roadmap.b1.text4, .roadmap.b2.text1, .roadmap.b3.text1, .roadmap.b4.text1, .roadmap.b5.text1, .roadmap.b6.text1{
+font-weight: 300;
+}
+
+.roadmap.b1.img1, .roadmap.b1.img2,  .roadmap.b3.img, .roadmap.b5.img{
+position: absolute;
+margin-left: -9.7%;
+}
+
+.roadmap.b2.img, .roadmap.b2.img2, .roadmap.b4.img, .roadmap.b6.img{
+position: absolute;
+margin-top: 25px;
+}
+
+.roadmap.b2.img{
+margin-top: 0px;
+}
+
+.roadmap.b2.img2{
+margin-top: 60px;
+}
+
+.roadmap.b3.img{
+margin-left: -17.5%;
+margin-top: -4px;
+}
+
+.roadmap.b5.img{
+margin-left: -21.5%;
+margin-top: -1px;
+}
+
+.roadmap.b6.img{
+padding-top: 24px;
+width: 250px;
+}
+
+.roadmap.b1.year{
+text-align: left;
+font-size: 20px;
+font-weight: 300;
+}
+
+.roadmap.b1.title, .roadmap.b3.title, .roadmap.b5.title{
+margin-top: 20px;
+font-size: 46px;
+}
+
+.roadmap.b2.title, .roadmap.b4.title{
+margin-left: 75px;
+font-size: 46px;
+}
+
+.roadmap.block.b6{
+/*background-image: url('../img/roadmapGreen/png/backgroundImageRoadmapWhiteGreen2.png');
+background-size: 100%;
+background-position: center;*/
+
+    background-color: black;
+    color: white;
+
+height: 514px;
+padding: 15px;
+padding-left: 42px;
+}
+
+.roadmap.b6.title{
+font-size: 46px;
+}
+
+.roadmap.b6.text1{
+padding-top: 25px;
+padding-right: 135px;
+float: left;
+width: 350px;
+}
+
+/* GET ATTSOM **/
+
+section.getattsom{
+padding-top: 40px;
+display: flex;
+justify-content: space-between;
+
+--paddingGetattsomLR: 320px;
+
+padding-bottom: 100px;
+background-color: rgb(32, 30, 41);
+color: white;
+}
+
+section.getattsom.n1, section.getattsom.n2{        
+display: block;
+width: 500px;
+}
+
+section.getattsom.n1{
+padding-left: var(--paddingGetattsomLR);
+}
+
+section.getattsom.n2{
+margin-top: 20px;
+padding-right: var(--paddingGetattsomLR);
+}
+
+.getattsom.img{
+position: absolute;
+}
+
+.getattsom.img.n1{
+width: 500px;
+}
+
+.getattsom.img.n2{
+width: 100px;
+margin-left: 16%;
+margin-top: 75px;
+}
+
+.getattsom.img.n3{
+width: 44px;
+margin-left: 12.3%;
+margin-top: 225px;
+}
+
+.getattsom.img.n4{
+width: 219px;
+margin-left: 4%;
+margin-top: 268px;
+}
+
+.getattsom.title{
+font-size: 42px;
+color: rgb(13, 191, 135);
+}
+
+.getattsom.subtitle{
+font-weight: 400;
+}
+
+.getattsom.text.n1{
+font-weight: 300;
+}
+
+.getattsom.text.n2, .getattsom.text.n3{
+    color: rgb(13, 191, 135);
+}
+
+.getattsom.operations{
+display: flex;
+justify-content: space-between;
+}
+
+.getattsom.operations.b1, .getattsom.operations.b2{
+justify-content: space-evenly;
+font-size: 18px;
+}
+
+.getattsom.operations.b1{
+width: 280px;
+}
+
+.getattsom.operations.b2{
+width: 160px;
+}
+
+.getattsom.text.img.n1{
+display: block;
+position: relative;
+padding-top: 9.6px;
+height: 47px;
+width: 50px;
+margin-left: 0px;
+}
+
+.getattsom.text.img.n2{
+display: block;
+position: relative;
+padding-top: 25.4px;
+height: 16px;
+width: 15px;
+margin-top: 0;
+margin-left: 5px;
+}
+
+/* footer N1 **/
+
+.footer.n1{
+display: flex;
+justify-content: space-between;
+--paddingFooterN1: 450px;
+height: 120px;
+/*margin-bottom: 95px;**/
+    padding-bottom: 95px;
+    background-color: rgb(32, 30, 41);
+    color: white;
+}
+
+.side.n1{
+padding-left: var(--paddingFooterN1);        
+width: 500px;
+}
+
+.side.n2{
+width: 500px;
+margin-top: 23px;
+padding-right: var(--paddingFooterN1);       
+}
+
+.socialNetworks.footer{
+margin-top: 45px;
+margin-left: -15px;
+}
+.attsomTitleFooter{
+font-size: 20px;
+}
+
+.followUs.ft{
+font-weight: 200;
+font-size: 32px;
+}
+
+.attsom.contract, .attsom.code{
+font-weight: 300;
+font-size: 19px;
+margin-top: 48px;
+}
+
+/* footer N2 **/
+
+.footer.n2{
+display: flex;
+justify-content: center;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: rgb(0, 0, 0);
+color: rgba(255, 255, 255, 0.4);
+transition: all 0.3s;
+}
+
+.madeby:hover{
+transition: all 0.3s;
+color: white;
+}
+
+.madeby.link{
+text-decoration: none;
+color: unset;
+transition: all 0.3s;
+}
+
+.madeby.link:hover{
+color: rgb(13, 191, 135);
+}
+
+
+/***************************************************************************************************************
+****************************************************************************************************************
+
+                                                    MEDIA QUERIES - 1360
+
+/***************************************************************************************************************
+****************************************************************************************************************/
+
+@media (min-width: 1360px){
+    header{
+        --paddingHeaderLR: 125px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: var(--paddingHeaderLR);
+        padding-right: var(--paddingHeaderLR);
+    }
+
+   .attsom.format.green{
+       font-size: 50px;
+   }
+
+   .socialNetworks{
+       margin-top: 175px;
+   }
+
+   .buyAttsom{
+       font-size: 22px;
+   }
+
+   .attsomSiteTitleImgFront{
+       width: 165px;
+   }
+
+
+   /* about attsom**/
+
+   .aboutAttsom.h1{
+       font-size: 46px;
+   }
+
+   .aboutAttsom.secureProj{
+       padding-top: 53px;
+   }
+
+   .aboutAttsom.img.n1{
+       width: 150px;
+   }
+   .aboutAttsom.img.n2{
+       width: 295px;
+}
+   .aboutAttsom.img.n3{
+       width: 350px;
+}
+
+    h3.aboutAttsom.text.n1, h3.aboutAttsom.text.n2, h3.aboutAttsom.text.n3, h3.aboutAttsom.text.n4{
+        font-size: 18px;
+    }
+
+    .aboutAttsom.text.under{
+        font-size: 16px;
+    }
+
+    section.aboutAttsom{
+        margin-bottom: 120px;
+    }
+
+    /* about revenue **/
+
+    section.aboutRevenue1mi{
+        margin-top: 75px;
+    }
+
+    article.aboutRevenue1mi{
+        --paddingAboutRevenue1miLR: 220px;
+    }
+
+    .aboutRevenue1mi.circle.n1, .aboutRevenue1mi.circle.n2{
+        width: 310px;
+    }
+
+    .aboutRevenue1mi.circle.n1{
+        padding-left: 15px;
+    }
+
+    .aboutRevenue1mi.text{
+        font-size: 20px;
+    }
+
+    .aboutRevenue1mi.title{
+        width: 155px;
+        padding-left: 103px;
+        padding-top: 35px;
+        font-size: 26px;
+    }
+
+    .aboutRevenue1mi.text.n0{
+        font-size: 32px;
+    }
+    .aboutRevenue1mi.text.n1, .aboutRevenue1mi.text.n2, .aboutRevenue1mi.text.n3{
+        font-size: 18px;
+    }
+
+    .aboutRevenue1mi.side.n2{
+        margin-top: -43px;
+    }
+
+    /* About Revenue With No Invest **/
+    .aboutRevenueWithNoInvest.subtitle{
+        font-size: 26px;
+    }
+
+    article.aboutRevenueWithNoInvest.n1, article.aboutRevenueWithNoInvest.n2, article.aboutRevenueWithNoInvest.n3{
+        width: 345px;
+    }
+
+    .footer.n1{
+        --paddingFooterN1: 160px;        
+    }
+
+    .roadmap.block.b6{
+        height: 395px;
+        padding-top: 5px;
+        padding-left: 31px;
+        padding-bottom: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 1px;
+    }
+
+    .roadmap.b6.img{
+        padding-top: 30px;
+        margin-top: 13px;
+        width: 140px;
+    }
+
+    .roadmap.b6.title{
+        margin-top: 25px;
+    }
+
+    .roadmap.b6.text1{
+        padding-right: 53px;
+    }
+
+    .aboutRevenueWithNoInvest.n0{
+        --paddingAboutRevenueWithNoInvestLR: 95px;
+    }
+
+    .aboutRevenueWithNoInvest.text{
+        font-size: 17px;
+    }
+
+    .aboutRevenueWithNoInvest.imgT{
+        width: 85px;
+        margin-left: 39%;
+        margin-bottom: -20px;
+    }
+
+    section.aboutRevenue1mi{
+        margin-top: 270px;
+        margin-bottom: 205px;
+    }
+
+    .aboutRevenueWithNoInvest.h3text{
+        padding-right: 345px;
+        font-size: 13px;
+        margin-left: 464px;
+    }
+    
+    .aboutRevenueWithNoInvest.img{
+        margin-top: -647px;
+        left: -158.5px;
+        width: 545px;
+    }
+
+    .aboutRevenueWithNoInvest.img.n2{
+        left: -175.5px;
+        margin-top: -660px;
+    }
+
+    .aboutRevenueWithNoInvest.img.n3{
+        margin-top: -638px;
+        left: -173.5px;
+    }
+
+    .aboutRevenueWithNoInvest.rectangletext.n1{
+        font-size: 20px;
+    }
+
+    .aboutRevenueWithNoInvest.rectanglesubtext.n1{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .aboutRevenueWithNoInvest.rectanglesubtext{
+        margin: 0;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle{
+        font-size: 13px;
+        height: 76px;
+        width: 410px;
+    }
+    
+    .aboutRevenueWithNoInvest.n2.rectangle.n11{
+        height: 85px;
+        width: 247px;
+
+        margin-left: 39%;
+/*        padding: 8px 15px 0px 30px;*/
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n22{
+        margin-left: 440px;
+        margin-top: 72px;
+        margin-left: 12.6%;
+        width: 210px;
+        height: 61px;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n33{
+        margin-top: 113px;
+        margin-left: 41%;
+        width: 183px;
+        height: 76px;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n44{
+        width: 242px;
+        margin-top: -381px;
+        margin-left: 67%;
+        height: 124px;
+    }
+
+    .yagorTokenomics{
+        height: 620px;
+    }
+    
+    .roadmap.FirstSubtitle{
+        --paddingLRRoadmapSubtitle: 360px;
+    }
+
+    .roadmap.block.b1, .roadmap.block.b3, .roadmap.block.b5{
+        margin-left: 18%;
+    }
+
+    .roadmap.block.b2, .roadmap.block.b4, .roadmap.block.b6{
+        margin-left: 53%;
+    }
+
+    .roadmap.b1.img1, .roadmap.b1.img2, .roadmap.b2.img, .roadmap.b5.img{
+        margin-left: -12%;
+    }
+    
+    .roadmap.b2.img{
+        margin-left: -0.11%;
+    }
+
+    .roadmap.block.b4.title{
+        margin-left: 77px;
+    }
+
+    .roadmap.b3.img{
+        margin-left: -34.5%;
+    }
+
+    .roadmap.b4.img{
+        margin-top: 12px;
+    }
+
+    .roadmap.b1.title, .roadmap.b3.title, .roadmap.b5.title{
+        font-size: 38px;
+    }
+
+    .roadmap.b2.title, .roadmap.b4.title, .roadmap.b6.title{
+        font-size: 38px;
+    }
+
+    .roadmap.b1.text1, .roadmap.b1.text2, .roadmap.b1.text3, .roadmap.b1.text4, .roadmap.b2.text1, .roadmap.b3.text1, .roadmap.b4.text1, .roadmap.b5.text1, .roadmap.b6.text1{
+        font-size: 16px;        
+    }
+
+    .roadmap.b5.img{
+        margin-left: -26%;
+        margin-top: -6px;
+    }
+
+    section.getattsom{
+        --paddingGetattsomLR: 125px;
+    }
+
+    .getattsom.img.n2{
+        margin-left: 22%;
+    }
+
+    .getattsom.img.n3{
+        margin-left: 16.9%;
+    }
+
+    .getattsom.img.n4{
+        margin-left: 7%;
+    }
+
+    .socNetLi.followUs{
+        font-size: 25px;
+    }
+}
+
+/***************************************************************************************************************
+****************************************************************************************************************
+
+                                                    MEDIA QUERIES - 1920
+
+/***************************************************************************************************************
+****************************************************************************************************************/
+
+@media (min-width: 1920px){
+
+    .aboutRevenueWithNoInvest.rectanglesubtext{
+        margin: unset;
+    }
+
+    .yagorTokenomics{
+        height: 866px;;
+    }
+
+    .aboutRevenueWithNoInvest.rectanglesubtext.n1{
+        font-size: 1.17em;
+        margin: unset;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n22{
+        width: 350px;
+        margin-top: 130px;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n33{
+        width: 350px;
+    }
+
+    .aboutRevenueWithNoInvest.n2.rectangle.n44{
+        width: 350px;
+        height: 143px;
+    }
+
+    .aboutRevenue1mi.circle.n1{
+        padding-left: initial;
+    }
+
+    .roadmap.b5.img{
+        margin-left: initial;
+        margin-top: initial;
+    }
+
+    .roadmap.b4.img{
+        margin-top: initial;
+    }
+
+    .roadmap.b1.text1, .roadmap.b1.text2, .roadmap.b1.text3, .roadmap.b1.text4, .roadmap.b2.text1, .roadmap.b3.text1, .roadmap.b4.text1, .roadmap.b5.text1, .roadmap.b6.text1{
+        font-size: 1.17em;        
+    }
+
+    .roadmap.b2.img{
+        margin-left: initial;
+    }
+
+    /* changes after the resolutions adjusments **/
+
+    header{
+      padding-top: 80px;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 345px;
+      padding-right: 345px;
+    }    
+
+    .liNav{
+        display: inline;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 21px;
+        
+        }
+        
+        .liNav.w300{
+        font-weight: 300;
+        }
+        
+        .attsomSiteTitle{
+        font-size: 23px;
+        }
+        
+        /* main - first page **/
+        
+        .firstPage{
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 1080px;
+        padding-top: 130px;
+        
+        }
+
+        .attsomSiteTitleImgFront{
+            width: 220px;
+        }
+        
+        .attsom.format.green{
+        display: inline;
+        font-size: 55px;
+        color: rgb(29, 191, 115);
+        font-family: Arial, 'Ubuntu', sans-serif;
+        
+        line-height: 1; 
+        font-weight: 600;
+        }
+        
+        .communityText{
+        display: inline;
+        font-size: 52px;
+        }
+        
+        .communityText.below{
+        padding-top: 25px;
+        font-size: 26px;
+        }
+        
+        .buyAttsom{
+        font-size: 26px;
+        font-family: 'Ubuntu';
+        font-weight: 600;
+        
+        margin-top: 40px;
+        
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+        background-color: rgb(52, 53, 58);
+        color: rgb(182, 182, 184);
+        border: solid 2px  rgb(52, 53, 58);
+        border-radius: 5px;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        transition: all 0.4s;
+        }
+        
+        .buyAttsom:hover{
+        transition: all 0.4s;
+        /*background-color: rgba(52, 53, 58, 0.5);*/
+        }
+        
+        .socNet{
+        padding: 0;
+        }
+        
+        .socialNetworks{
+        margin-top: 325px;
+        margin-bottom: 200px;
+        margin-left: -15px;
+        }
+        
+        .socNetLi{
+        list-style: none;
+        display: inline;
+        padding: 0px 15px 0px 15px;
+        }
+        
+        .socNetLi.followUs{
+        font-size: 26px;
+        font-weight: 600;
+        }
+        
+        .twitter{
+        max-width: 45px;
+        transition: all 0.2s;
+        }
+        
+        .twitter:hover{
+        transform: scale(1.17);
+        transition: all 0.2s;
+        } 
+        
+        .telegram{
+        max-width: 39.7px;
+        transition: all 0.2s;
+        }
+        
+        .telegram:hover{
+        transform: scale(1.17);
+        transition: all 0.2s;
+        }
+        
+        .reddit{
+        max-width: 47px;
+        transition: all 0.2s;
+        }
+        
+        .reddit:hover{
+        transform: scale(1.17);
+        transition: all 0.2s;
+        } 
+        
+        .discord{
+        max-width: 50px;
+        transition: all 0.2s;
+        }
+        
+        
+        .discord:hover{
+        transform: scale(1.17);
+        transition: all 0.2s;
+        } 
+        
+        .link{
+        cursor: pointer;
+        }
+        
+        /* About ATTSOM **/
+        
+        section.aboutAttsom{
+        margin-bottom: 380px;
+        }
+        
+        .aboutAttsom.name, .aboutAttsom.h1{
+        text-align: center;
+        }
+        
+        .aboutAttsom.h1{
+        font-size: 52px;
+        margin-bottom: 105px;
+        }
+        
+        .aboutAttsom.col.n0{
+        display: flex;
+        justify-content: space-between;
+        
+        --paddingLR: 225px;
+        --paddingTriangleLR: 55px;
+        }
+        
+        .aboutAttsom.col.n1, .aboutAttsom.col.n3{
+        width: 1110px;
+        padding-top: 7px;
+        }
+        
+        .aboutAttsom.col.n1{
+        padding-left: var(--paddingLR);
+        }
+        
+        .aboutAttsom.col.n2{
+        text-align: center;
+        width: 920px;
+        }
+        
+        .aboutAttsom.col.n3{
+        padding-right: var(--paddingLR);
+        }
+        
+        .aboutAttsom.img.n1{
+        width: 200px;
+        margin-top: 20px;
+        
+        }
+        .aboutAttsom.img.n2{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: var(--paddingTriangleLR);
+        padding-right: var(--paddingTriangleLR);
+        
+        width: 370px;
+        margin-top: -34px;
+        }
+        .aboutAttsom.img.n3{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: var(--paddingTriangleLR);
+        padding-right: var(--paddingTriangleLR);
+        width: 540px;
+        }
+        
+        .aboutAttsom.secureProj{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        padding-top: 75px;
+        width: 120px;
+        font-size: 20px;
+        
+        text-align: left;
+        padding-left: 35px;
+        }
+        
+        .aboutAttsom.text.n1, .aboutAttsom.text.n2{
+        text-align: right;
+        }
+        
+        .aboutAttsom.text.n3, .aboutAttsom.text.n4, .aboutAttsom.text.n41{
+        text-align: left;
+        }
+        
+        h3.aboutAttsom.text.n1, h3.aboutAttsom.text.n2, h3.aboutAttsom.text.n3, h3.aboutAttsom.text.n4{
+        font-size: 24px        
+        }
+        
+        .aboutAttsom.text.under{
+        --paddingTextUnderLR: 50px;
+        font-size: 22px;
+        font-weight: 300;
+        }
+        
+        .aboutAttsom.text.under.n1, .aboutAttsom.text.under.n2{     
+        padding-left: var(--paddingTextUnderLR);  
+        margin: 0;
+        }
+        
+        .aboutAttsom.text.under.n3, .aboutAttsom.text.under.n4{
+        padding-right: var(--paddingTextUnderLR);
+        }
+        
+        .aboutAttsom.subCol.n1{        
+        padding-right: 85px;
+        }
+        
+        .aboutAttsom.subCol.n2{        
+        padding-top: 55px;
+        }
+        
+        .aboutAttsom.subCol.n3{        
+        padding-left: 85px;
+        }
+        
+        .aboutAttsom.subCol.n4{        
+        padding-left: 15px;
+        padding-right: 0px;
+        }
+        
+        /* aboutRevenue **/
+        
+        section.aboutRevenue1mi{
+        margin-top: 400px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 270px;
+        }
+        article.aboutRevenue1mi{
+        width: 520px;
+        --paddingAboutRevenue1miLR: 340px;
+        }
+        
+        .aboutRevenue1mi.side.n1{
+        padding-left: var(--paddingAboutRevenue1miLR);
+        }
+        
+        .aboutRevenue1mi.side.n2{
+            margin-top: 20px;
+            padding-right: var(--paddingAboutRevenue1miLR);
+        }
+        
+        .aboutRevenue1mi.title{
+        position: absolute;
+        width: 300px;
+        text-align: center;
+        
+        padding-left: 190px;
+        padding-top: 106px;
+        font-size: 48px;
+        }
+        
+        .aboutRevenue1mi.circle.n1, .aboutRevenue1mi.circle.n2{
+        position: absolute;    
+        
+        width: 620px;
+        margin-top: -25px;
+        }
+        
+        .aboutRevenue1mi.circle.n1{
+        padding-left: 25px;
+        }
+        
+        .aboutRevenue1mi.side.n2{
+        font-size: 22px;
+        }
+        
+        .aboutRevenue1mi.text.n0{
+        font-size: 48px;
+        }
+        
+        /* aboutRevenueWithNoInvest **/
+        
+        /*div.aboutRevenueWithNoInvest{
+        
+        }**/
+        
+        .aboutRevenueWithNoInvest.title{
+        text-align: center;
+        font-size: 54px;
+        }
+        
+        .aboutRevenueWithNoInvest.n0{
+        display: flex;
+        justify-content: space-between;
+        --paddingAboutRevenueWithNoInvestLR: 250px;
+        padding-left: var(--paddingAboutRevenueWithNoInvestLR);
+        padding-right: var(--paddingAboutRevenueWithNoInvestLR);
+        }
+        
+        article.aboutRevenueWithNoInvest.n1, article.aboutRevenueWithNoInvest.n2, article.aboutRevenueWithNoInvest.n3{
+        width: 390px;
+        }
+        
+        .aboutRevenueWithNoInvest.subtitle{
+        font-size: 26px;
+        }
+        
+        .aboutRevenueWithNoInvest.text{
+        font-size: 19px;
+        font-weight: 300;
+        }
+        
+        /* 3 circles and 4 squares **/
+        .aboutRevenueWithNoInvest.n2.rectangle{
+            text-align: center;
+            color: black;
+            background-color: rgba(13, 191, 135, 0.88);
+        display: block;
+        width: 350px;
+        height: 88px;
+        max-height: 240px;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 25px;
+        
+        margin-left: 330px;
+        }
+        
+        .aboutRevenueWithNoInvest.n2.rectangle.n11{
+            margin-left: 744px;
+            width: 350px;
+        margin-bottom: 35px;
+        height: 110px;
+        }
+        
+        .aboutRevenueWithNoInvest.n2.rectangle.n22{
+        /*margin-left: 480px;**/
+            /*margin-top: 110px;*/
+            margin-left: 214px;
+        }
+        
+        .aboutRevenueWithNoInvest.n2.rectangle.n33{
+        margin-left: 580px;
+            margin-top: 205px;
+            margin-left: 749px;
+        }
+        
+        .aboutRevenueWithNoInvest.n2.rectangle.n44{
+        height: 166px;        
+        margin-left: 680px;
+            margin-top: -496px;
+            height: 145px;
+            margin-left: 1272px;
+        }
+
+        .aboutRevenueWithNoInvest.img{
+        width: 770px;
+        position: absolute;
+        margin-top: -740px;
+        left: -284.5px;
+        }    
+        
+        .aboutRevenueWithNoInvest.img.n2{
+        margin-top: -750px;
+        left: -322.5px;
+        }
+        
+        .aboutRevenueWithNoInvest.img.n3{
+        margin-top: -720px;
+        left: -308.5px;
+        }
+        
+        .aboutRevenueWithNoInvest.rectangletext.n1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 34px;
+        }
+        
+        .aboutRevenueWithNoInvest.h3text{
+        margin-left: 680px;
+        padding-right: 650px;
+        text-align: left;
+        font-size: 22px;
+        }
+        
+        .aboutRevenueWithNoInvest.h3text2, .aboutRevenueWithNoInvest.h3text3, .aboutRevenueWithNoInvest.h3text4{
+        font-weight: 400;
+        font-size: 19px;
+        }
+        
+        /* ROAD MAP **/
+        section.roadmap{
+        margin-top: 125px;
+        }
+        
+        .roadmap.FirstTitle, .roadmap.FirstSubtitle{
+        font-size: 42px;
+        text-align: center;
+        }
+        
+        .roadmap.FirstSubtitle{
+        --paddingLRRoadmapSubtitle: 550px;
+        padding-left: var(--paddingLRRoadmapSubtitle);
+        padding-right: var(--paddingLRRoadmapSubtitle);
+        }
+        
+        .roadmap.b1Main, .roadmap.b2Main, .roadmap.b3Main, .roadmap.b4Main, .roadmap.b5Main, .roadmap.b6Main{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .roadmap.block{
+        max-width: 980px;
+        }
+        .roadmap.block.b1, .roadmap.block.b3, .roadmap.block.b5{
+        text-align: right;
+        width: 425px;
+        margin-left: 25%;
+        }
+        .roadmap.block.b2, .roadmap.block.b4, .roadmap.block.b6{        
+        margin-left: 53%;
+        text-align: left;
+        padding-right: 350px;
+        }
+        
+        .roadmap.block.b1.title, .roadmap.block.b2.title, .roadmap.block.b3.title, .roadmap.block.b4.title, .roadmap.block.b5.title, .roadmap.block.b6.title{
+            padding: unset;
+        }
+        
+        .roadmap.b1.text1, .roadmap.b1.text2, .roadmap.b1.text3, .roadmap.b1.text4, .roadmap.b2.text1, .roadmap.b3.text1, .roadmap.b4.text1, .roadmap.b5.text1, .roadmap.b6.text1{
+        font-weight: 300;
+        }
+        
+        .roadmap.b1.img1, .roadmap.b1.img2,  .roadmap.b3.img, .roadmap.b5.img{
+        position: absolute;
+        margin-left: -9.7%;
+        }
+        
+        .roadmap.b2.img, .roadmap.b2.img2, .roadmap.b4.img, .roadmap.b6.img{
+        position: absolute;
+        margin-top: 25px;
+        }
+        
+        .roadmap.b2.img{
+        margin-top: 0px;
+        }
+        
+        .roadmap.b2.img2{
+        margin-top: 60px;
+        }
+        
+        .roadmap.b3.img{
+        margin-left: -17.5%;
+        margin-top: -4px;
+        }
+        
+        .roadmap.b5.img{
+        margin-left: -21.5%;
+        margin-top: -1px;
+        }
+        
+        .roadmap.b6.img{
+            padding-top: 0px;
+            width: 250px;
+        }
+        
+        .roadmap.b1.year{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        }
+        
+        .roadmap.b1.title, .roadmap.b3.title, .roadmap.b5.title{
+        margin-top: 20px;
+        font-size: 46px;
+        }
+        
+        .roadmap.b2.title, .roadmap.b4.title{
+        margin-left: 75px;
+        font-size: 46px;
+        }
+        
+        .roadmap.block.b6{
+        height: 514px;
+        padding: 15px;
+        padding-left: 42px;
+        }
+        
+        .roadmap.b6.title{
+        font-size: 46px;
+        }
+        
+        .roadmap.b6.text1{
+        padding-top: 25px;
+        padding-right: 135px;
+        float: left;
+        width: 350px;
+        }
+        
+        /* GET ATTSOM **/
+        
+        section.getattsom{
+/*        margin-top: 85px;**/
+            padding-top: 85px;
+        display: flex;
+        justify-content: space-between;
+        
+        --paddingGetattsomLR: 320px;
+            padding-bottom: 110px;
+        /*margin-bottom: 130px;**/
+        }
+        
+        section.getattsom.n1, section.getattsom.n2{        
+        display: block;
+        width: 500px;
+        }
+        
+        section.getattsom.n1{
+        padding-left: var(--paddingGetattsomLR);
+        }
+        
+        section.getattsom.n2{
+        margin-top: 20px;
+        padding-right: var(--paddingGetattsomLR);
+        }
+        
+        .getattsom.img{
+        position: absolute;
+        }
+        
+        .getattsom.img.n1{
+        width: 500px;
+        }
+        
+        .getattsom.img.n2{
+        width: 100px;
+        margin-left: 16%;
+        margin-top: 75px;
+        }
+        
+        .getattsom.img.n3{
+        width: 44px;
+        margin-left: 11.9%;
+        margin-top: 225px;
+        }
+        
+        .getattsom.img.n4{
+        width: 219px;
+        margin-left: 4%;
+        margin-top: 268px;
+        }
+        
+        .getattsom.title{
+        font-size: 42px;
+        }
+        
+        .getattsom.subtitle{
+            font-size: 22px;
+            font-weight: 400;
+        }
+        
+        .getattsom.text.n1{
+            font-weight: 300;
+            font-size: 20px;
+        }
+        
+        .getattsom.operations{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .getattsom.operations.b1, .getattsom.operations.b2{
+        justify-content: space-evenly;
+        font-size: 18px;
+        }
+        
+        .getattsom.operations.b1{
+        width: 280px;
+        }
+        
+        .getattsom.operations.b2{
+        width: 160px;
+        }
+        
+        .getattsom.text.img.n1{
+        display: block;
+        position: relative;
+        padding-top: 9.6px;
+        height: 47px;
+        width: 50px;
+        margin-left: 0px;
+        }
+        
+        .getattsom.text.img.n2{
+        display: block;
+        position: relative;
+        padding-top: 25.4px;
+        height: 16px;
+        width: 15px;
+        margin-top: 0;
+        margin-left: 5px;
+        }
+        
+        /* footer N1 **/
+        
+        .footer.n1{
+            display: flex;
+            justify-content: space-between;
+            --paddingFooterN1: 345px;
+            height: 120px;
+        }
+        
+        .side.n1{
+        padding-left: var(--paddingFooterN1);        
+        width: 500px;
+        }
+        
+        .side.n2{
+        width: 500px;
+        margin-top: 23px;
+        padding-right: var(--paddingFooterN1);       
+        }
+        
+        .socialNetworks.footer{
+        margin-top: 45px;
+        margin-left: -15px;
+        }
+        .attsomTitleFooter{
+        font-size: 20px;
+        }
+        
+        .followUs.ft{
+        font-weight: 200;
+        font-size: 32px;
+        }
+        
+        .attsom.contract, .attsom.code{
+        font-weight: 300;
+        font-size: 26px;
+        margin-top: 26px;
+        }
+        
+        /* footer N2 **/
+        
+        .footer.n2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgba(255, 255, 255, 0.4);
+        transition: all 0.3s;
+        }
+        
+        .madeby:hover{
+        transition: all 0.3s;
+        color: white;
+        }
+        
+        .madeby.link{
+        text-decoration: none;
+        color: unset;
+        transition: all 0.3s;
+        }
+        
+        .madeby.link:hover{
+        color: rgb(13, 191, 135);
+        }
+}
